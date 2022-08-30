@@ -6,6 +6,9 @@ const app = express()
 //configurar a porta remotaq e local 
 const porta = process.env.PORT || 666
 
+//definir o express com o urlencoded
+app.use(express.urlencoded({extended:false}))
+
 //importar o pacote consign 
 const consign = require('consign')
 //executar e configurar o consign 

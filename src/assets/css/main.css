@@ -2572,7 +2572,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -3327,3 +3327,14 @@ input, select, textarea {
 			}
 
 		}
+.sopa{
+	animation: sopa 2s 5 ;
+}
+.gradient{
+	background: linear-gradient(to left,#ae85ca, #7bd0c1 );
+}
+
+@keyframes sopa {
+	0%{transform: rotate3d(1,1,1,360deg)}
+	100%{}	
+}
